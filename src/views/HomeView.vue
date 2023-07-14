@@ -18,5 +18,9 @@ export default {
 </script>
 
 <style scoped>
-
+.home {
+  background: linear-gradient(to right, #885AEB, #C358B9);
+  width: 100vw;
+  height: 80vh;
+}
 </style>
