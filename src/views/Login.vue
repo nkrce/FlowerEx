@@ -16,7 +16,7 @@ id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
               <input type="password" class="form-control"
 id="exampleInputPassword1" placeholder="Password" />
             </div>
-            <button type="submit" class="btn btn-primary">Log in</button>
+            <button type="submit" class="btn btn-dark">Log in</button>
             <small id="emailHelp" class="form-text text-muted" >Don't have an account? <a href="/signup">Sign up</a></small>
           </form>
         </div>
