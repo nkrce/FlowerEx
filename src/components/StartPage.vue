@@ -7,8 +7,8 @@
       to order flowers ✿
     </p>
  
-    <router-link to="/login"><button type="submit" class="btn btn-primary">Log in</button></router-link> <br> <br>
-    <router-link to="/signup"><button type="submit" class="btn btn-primary">Sign up</button></router-link>
+    <router-link to="/login"><button type="submit" class="btn btn-dark">Log in</button></router-link> <br> <br>
+    <router-link to="/signup"><button type="submit" class="btn btn-outline-secondary">Sign up</button></router-link>
     
   </div>
 </template>
