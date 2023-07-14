@@ -6,11 +6,16 @@
       Simple and easy way <br>
       to order flowers ✿
     </p>
- 
-    <router-link to="/login"><button type="submit" class="btn btn-dark">Log in</button></router-link> <br> <br>
-    <router-link to="/signup"><button type="submit" class="btn btn-outline-light">Sign up</button></router-link>
-    
+
+ <div class="container-fluid my-container" style="">
+  <div class="btn-group-vertical" role="group" aria-label="Mixed styles example">
+    <div class="span2">
+     <router-link to="/login"><button type="submit" class="btn btn-dark btn-block">Log in</button></router-link> 
+     <router-link to="/signup"><button type="submit" class="btn btn-outline-light btn-block">Sign up</button></router-link>
+    </div>
   </div>
+ </div>
+</div>
 </template>
 
 <script>
@@ -36,6 +41,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #885AEB;
 }
 </style>
