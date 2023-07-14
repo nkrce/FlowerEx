@@ -26,7 +26,7 @@ id="exampleInputPassword1" placeholder="Password" />
               <input type="password" class="form-control"
 id="exampleInputPassword1" placeholder="Confirm password" />
             </div>
-            <button type="submit" class="btn btn-primary">Sign up</button>
+            <button type="submit" class="btn btn-dark">Sign up</button>
             <small id="emailHelp" class="form-text text-muted" >Already have an account? <a href="/login">Log in</a></small>
           </form>
         </div>
