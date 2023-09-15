@@ -9,14 +9,15 @@
     </a>
 </nav>
    <div class="about">
+    <br>
     <h2>Welcome back! </h2>
     <p> Choose a store and order flowers you like <br>
-        for yourself  or whoever else you'd like! </p>
+        for yourself  or whoever else you'd like! </p> <br>
    </div>
 
    <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col"> <br>
       <my-shop-card 
       image-source="../assets/logo.png"
       title="Flower shop #1"
@@ -24,7 +25,7 @@
       link="#"
       button-text="Go to shop"/>
     </div>
-    <div class="col">
+    <div class="col"> <br>
      <my-shop-card 
       image-source="../assets/logo1.png"
       title="Flower shop #2"
@@ -33,7 +34,7 @@
       button-text="Go to shop"/>
     </div>
     <div class="w-100"></div>
-    <div class="col">
+    <div class="col"> <br>
      <my-shop-card 
       image-source="../assets/logo1.png"
       title="Flower shop #3"
@@ -41,7 +42,7 @@
       link="#"
       button-text="Go to shop"/>
     </div>
-    <div class="col">
+    <div class="col"> <br>
      <my-shop-card 
       image-source="../assets/logo1.png"
       title="Flower shop #4"
@@ -65,3 +66,18 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.about {
+  background: linear-gradient(to right, #885AEB, #C358B9);
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
