@@ -26,3 +26,32 @@ nav {
   }
 }
 </style>
+
+<script>
+import store from "@/store";
+import { firebase } from "@/firebase";
+
+firebase.auth().onAuthStateChanged(user => {
+   if (user) {
+    // User is signed in.
+    console.log(user.email);
+    store.currentUser = user.email;
+  }
+  else {
+    // User is not signed in.
+    console.log("No user");
+    store.currentUser = null;
+  }
+
+});
+
+export default {
+  name: 'app',
+   data() {
+    return {
+      store,
+    };
+  } 
+
+}
+</script>
