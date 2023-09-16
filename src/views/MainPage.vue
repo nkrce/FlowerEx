@@ -3,16 +3,27 @@
   <a class="navbar-brand" href="/settings">
     <img src="../assets/settings.png" width="30" height="30" alt="">
   </a>
-
    <a class="navbar-brand ml-auto" href="/history">
       <img src="../assets/history.png" width="30" height="30" alt="">
     </a>
 </nav>
    <div class="about">
-    <br>
-    <h2>Welcome back! </h2>
-    <p> Choose a store and order flowers you like <br>
+    <h2 style="color:white">Welcome back! </h2>
+    <p style="color:white"> Choose a store and order flowers you like <br>
         for yourself  or whoever else you'd like! </p> <br>
+      <div class="input-group mb-3 mx-auto" style="max-width: 300px;">
+      <div class="input-group-prepend">
+         <label class="input-group-text" for="inputGroupSelect01">City</label>
+       </div>
+       <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">Pula</option>
+          <option value="2">Zagreb</option>
+          <option value="3">Osijek</option>
+          <option value="4">Slavonski Brod</option>
+          <option value="5">Split</option>
+        </select>
+      </div> <br>
    </div>
 
    <div class="container">
@@ -71,6 +82,8 @@ export default {
 .about {
   background: linear-gradient(to right, #885AEB, #C358B9);
   width: 100%;
+  border-bottom-left-radius: 100px; 
+  border-bottom-right-radius: 100px;
 }
 
 .col {
