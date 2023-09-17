@@ -17,7 +17,7 @@ Figma:  https://www.figma.com/proto/dviwDgw5u3tIGwOIy1q9MK/FlowerEx.?type=design
 
 ### Javni link na aplikaciju
 
-Web: https://netlify... (dodat će se kasnije)
+Web: https://flower-ex.vercel.app/
 
 ### Organizacija
 
